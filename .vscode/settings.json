@@ -1,0 +1,26 @@
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "cSpell.words": [
+        "arrowprops",
+        "arrowstyle",
+        "edgecolor",
+        "facecolor",
+        "figsize",
+        "fontsize",
+        "horizontalalignment",
+        "lightgreen",
+        "puml",
+        "verticalalignment",
+        "xlim",
+        "xytext",
+        "ylim"
+    ]
+}

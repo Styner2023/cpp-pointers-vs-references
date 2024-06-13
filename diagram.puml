@@ -1,0 +1,52 @@
+@startuml
+title C++ Pointers vs References
+
+class "Pointer" {
+    - Can be reassigned
+    - Can be nullptr
+    - Needs dereferencing (*)
+    - Can point to another address
+}
+
+class "Reference" {
+    - Cannot be reassigned
+    - Cannot be nullptr
+    - No need for dereferencing
+    - Acts like an alias
+}
+
+Pointer <|-- Reference : Differences
+
+note right of Pointer::"Can be reassigned"
+Pointer can point to another address.
+end note
+
+note right of Pointer::"Can be nullptr"
+Pointer can have a null value.
+end note
+
+note right of Pointer::"Needs dereferencing (*)"
+Pointer needs to be dereferenced to access value.
+end note
+
+note right of Pointer::"Can point to another address"
+Pointer can be reassigned to point to different memory.
+end note
+
+note right of Reference::"Cannot be reassigned"
+Reference cannot be changed to refer to another variable.
+end note
+
+note right of Reference::"Cannot be nullptr"
+Reference must be initialized to a valid object.
+end note
+
+note right of Reference::"No need for dereferencing"
+Reference does not need dereferencing.
+end note
+
+note right of Reference::"Acts like an alias"
+Reference acts as an alias to the original variable.
+end note
+
+@enduml
