@@ -3,13 +3,8 @@
 This repository provides a visual comparison between pointers and references in C++. It includes a diagram that illustrates the key differences and a PlantUML source file used to generate the diagram.
 
 ## Diagram
-
-## Diagram
-
-<img src="diagram.png" alt="Pointer vs Reference Diagram" width="800">
-
 The diagram illustrates the basic differences between pointers and references, and it includes a comparison table with key features. 
-
+<img src="diagram.png" alt="Pointer vs Reference Diagram" width="800">
 ![Pointer vs Reference Diagram](diagram.png)
 
 The diagram illustrates the basic differences between pointers and references, and it includes a comparison table with key features. 
