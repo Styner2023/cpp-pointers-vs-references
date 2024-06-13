@@ -4,6 +4,12 @@ This repository provides a visual comparison between pointers and references in 
 
 ## Diagram
 
+## Diagram
+
+<img src="diagram.png" alt="Pointer vs Reference Diagram" width="800">
+
+The diagram illustrates the basic differences between pointers and references, and it includes a comparison table with key features. 
+
 ![Pointer vs Reference Diagram](diagram.png)
 
 The diagram illustrates the basic differences between pointers and references, and it includes a comparison table with key features. 
